@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* 共通部分 */
+html{
+  font-size: 100%;
+}
+
+body {
+  font-family: serif;
+  background-color: #EAF4FC;
+  position: absolute;
+  width: 100%;
+}
+
+/* コンテンツ */
+.content {
+  color: #17183B;
+}
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+.text {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #17183B;
+}
+.article-title {
+  text-align: center;
+}
+.text h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.text h2 {
+  font-size: 18px;
+  text-decoration: underline;
+}
+.text p {
+  font-size: 16px;
+}
+.wrapper3 {
+  border-top: #17183B 3px solid;
+  padding: 60px 0;
+}
+.rank {
+  text-decoration: none;
+  font-size: 16px;
+}
+.text h3 {
+  font-size: 16px;
+}
+.matome {
+  padding-bottom: 0;
+}
+.text img {
+  margin: 40px 0;
+}
+
+/* フッター */
+footer {
+  background-color: #78c1cd;
+  text-align: center;
+  padding: 26px 0;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: serif;
+}
+.wrapper2 {
+  background-color: #78c1cd;
+}
+
+.innerbox {
+  margin-top: 5px;
+  background-color: #78c1cd;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+}
+
+.footerlogo{
+  margin-top: 5px;
+}
